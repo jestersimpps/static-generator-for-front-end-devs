@@ -10,7 +10,8 @@ The generator works by downloading the contents of the [spreadsheet file that co
 ###0. Clone the repo
 
 ```
-git clone https://github.com/jestersimpps/static-generator-for-front-end-devs.git && rm -rf static-generator-for-front-end-devs/.git
+git clone https://github.com/jestersimpps/static-generator-for-front-end-devs.git
+rm -rf static-generator-for-front-end-devs/.git
 ```
 ###1. Install dependencies
 
