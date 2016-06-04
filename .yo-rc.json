@@ -1,0 +1,17 @@
+{
+  "generator-assemble": {
+    "projectName": "Jesters Template",
+    "projectDesc": "The best project ever.",
+    "authorLogin": "assemble",
+    "installPlugin": true,
+    "author": {
+      "name": "jestersimpps",
+      "login": "assemble",
+      "email": "jestersimpps@gmail.com"
+    },
+    "plugins": [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "JesterSimpps",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery":"~1",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  },
+  "private": true,
+  "devDependencies": {
+  }
+}
