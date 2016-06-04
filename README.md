@@ -1,7 +1,7 @@
 #Static page generator with internationalization
 
-This is a static page generator I once created for freelance work. It generates pages in multiple languages based on a google spreadsheet file.
-The generator works by downloading the contents of [Google spreadsheet file that contains a key column and multiple translation columns](https://docs.google.com/spreadsheets/d/1gA-5lpURCmllQAuTkc5vDvAv6Y4eXJDyr8XS-QJntes/edit?usp=sharing).
+This is a static page generator I once created for freelance work. It generates pages in multiple languages based on a Google spreadsheet file.
+The generator works by downloading the contents of the [spreadsheet file that contains a key column and multiple translation columns](https://docs.google.com/spreadsheets/d/1gA-5lpURCmllQAuTkc5vDvAv6Y4eXJDyr8XS-QJntes/edit?usp=sharing).
 
 ![gif](http://g.recordit.co/eOspjX8z5S.gif)
 
@@ -42,7 +42,7 @@ config: {
 
 ###4. Development
 
-Development is done in handlebars templates. They are assembled using (Assemble.io)[http://assemble.io].
+Development is done in handlebars templates. They are assembled using [Assemble.io](http://assemble.io).
 
 Development with automatic page reload:
 ```
@@ -57,7 +57,7 @@ grunt Build
 ```
 
 The generator features automatic uploads to Amazon s3 on build.
-To disable automatic uploads to Amazon s3, comment the aws_s3 in the build task at the bottom of the `Gruntfile.js`:
+To disable these, comment out the aws_s3 in the build task at the bottom of the `Gruntfile.js`:
 
 ```
 grunt.registerTask('build', [
